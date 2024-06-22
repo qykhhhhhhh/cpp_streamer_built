@@ -1,3 +1,4 @@
+[README_中文](./README-CH.md)
 # cpp_streamer
 cpp streamer is an audio and video component developed based on C++11. Users can connect the components together to implement their own streaming media functionality.
 
