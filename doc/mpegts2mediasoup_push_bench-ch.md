@@ -19,7 +19,7 @@ cpp streamer是音视频组件，提供串流方式开发模式。
 * 使用mspush组件: source接口导入上游解析后的媒体流后，组件内部进行webrtc网络传输格式的封装，再通过网络发送给webrtc服务器，这里为mediasoup的webrtc服务，用mediasoup broadcaster信令协商后，在用mspush组件进行推流；
 * 启动多个mspush组件实例，同时想webrtc服务进行推流；
 
-### 1.1 srs的mediasoup broadcaster url格式
+### 1.1 mediasoup broadcaster url格式
 ```
 https://xxxxx.com:4443?roomId=200&userId=1000
 ```

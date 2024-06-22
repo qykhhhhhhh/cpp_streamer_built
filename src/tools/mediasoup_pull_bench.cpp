@@ -33,7 +33,26 @@ public:
     }
     virtual ~MediasoupPulls()
     {
-        StopTimer();
+        Stop();
+    }
+
+public:
+    void Start() {
+        if (start_) {
+            return;
+        }
+        start_ = true;
+        StartTimer();
+    }
+
+    void Stop() {
+        if (!start_) {
+            return;
+        }
+        start_ = false;
+        Clean();
+        LogInfof(logger_, "job is done.");
+        exit(0);
     }
 
 public://CppStreamerInterface
@@ -66,13 +85,6 @@ protected:
         StartWheps();
     }
 
-    std::string GetUrl(size_t index) {
-        std::string url = src_url_;
-        url += "&userId=1000";
-        url += std::to_string(index);
-        return url;
-    }
-
 public:
     int MakeStreamers(uv_loop_t* loop_handle) {
         loop_ = loop_handle;
@@ -87,9 +99,15 @@ public:
         }
 
         return 0;
-
     }
 
+private:
+    std::string GetUrl(size_t index) {
+        std::string url = src_url_;
+        url += "&userId=1000";
+        url += std::to_string(index);
+        return url;
+    }
     void StartWheps() {
         if (post_done_) {
             return;
@@ -113,16 +131,6 @@ public:
         if (whep_index_ >= bench_count_) {
             post_done_ = true;
         }
-    }
-
-    void Start() {
-        StartTimer();
-    }
-
-    void Stop() {
-        Clean();
-        LogInfof(logger_, "job is done.");
-        exit(0);
     }
 
 private:
@@ -172,11 +180,12 @@ protected:
     }
 
 private:
+    uv_loop_t* loop_ = nullptr;
     std::string src_url_;
     size_t bench_count_ = 1;
-    uv_loop_t* loop_ = nullptr;
     size_t whep_index_ = 0;
     bool post_done_ = false;
+    bool start_ = false;
 
 private:
     Logger* logger_ = nullptr;

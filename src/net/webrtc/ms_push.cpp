@@ -1,5 +1,7 @@
 #include "ms_push.hpp"
 #include "uuid.hpp"
+#include "byte_crypto.hpp"
+
 #include <uv.h>
 #include <sstream>
 
@@ -150,6 +152,7 @@ void MsPush::BroadCasterRequest() {
     auto device_json = json::object();
     req_json["id"]          = userId_;
     req_json["displayName"] = userId_;
+    req_json["userName"]    = userId_;
     device_json["name"]     = "cpp_streamer";
     req_json["device"]      = device_json;
 

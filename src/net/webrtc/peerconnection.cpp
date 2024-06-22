@@ -473,12 +473,12 @@ int PeerConnection::HandleXrDlrr(XrDlrrData* dlrr_block) {
     uint32_t ssrc = ntohl(dlrr_block->ssrc);
 
     LogInfof(logger_, "Handle Xr Dlrr ssrc:%u", ssrc);
-    if (video_send_stream_ && ssrc == video_send_stream_->GetSsrc()) {
-        video_send_stream_->HandleXrDlrr(dlrr_block);
+    if (video_recv_stream_ && ssrc == video_recv_stream_->GetSsrc()) {
+        video_recv_stream_->HandleXrDlrr(dlrr_block);
     }
 
-    if (audio_send_stream_ && ssrc == audio_send_stream_->GetSsrc()) {
-        audio_send_stream_->HandleXrDlrr(dlrr_block);
+    if (audio_recv_stream_ && ssrc == audio_recv_stream_->GetSsrc()) {
+        audio_recv_stream_->HandleXrDlrr(dlrr_block);
     }
     return 0;
 }
@@ -492,15 +492,17 @@ int PeerConnection::HandleRtcpXr(uint8_t* data, int data_len) {
     while(xr_len > 0) {
         switch(xr_hdr->bt)
         {
+            //handle dlrr as receiver
             case XR_DLRR:
             {
-                XrDlrrData* dlrr_block = (XrDlrrData*)xr_hdr;
+                XrDlrrData* dlrr_block = (XrDlrrData*)(xr_hdr + 1);
                 HandleXrDlrr(dlrr_block);
                 break;
             }
+            //handle rrt as sender
             case XR_RRT:
             {
-                XrRrtData* rrt_block = (XrRrtData*)xr_hdr;
+                XrRrtData* rrt_block = (XrRrtData*)(xr_hdr + 1);
                 last_xr_ntp_.ntp_sec  = ntohl(rrt_block->ntp_sec);
                 last_xr_ntp_.ntp_frac = ntohl(rrt_block->ntp_frac);
                 last_xr_ms_ = now_millisec();
@@ -538,7 +540,7 @@ void PeerConnection::HandleRtcp(uint8_t* data, size_t len) {
         int item_total = (int)sizeof(RtcpCommonHeader) + payload_length;
         int ret = 0;
 
-        LogDebugf(logger_, "rtcp type:%d, left_len:%d", header->packet_type, left_len);
+        LogDebugf(logger_, "rtcp type:%d, left_len:%d, item_total:%d", header->packet_type, left_len, item_total);
         switch (header->packet_type)
         {
             case RTCP_SR:
@@ -828,8 +830,11 @@ void PeerConnection::CreateSendStream() {
     bool video_nack = answer_sdp_.IsVideoNackEnable();
     bool audio_nack = answer_sdp_.IsAudioNackEnable();
 
-    LogInfof(logger_, "create send stream video ssrc:%u, audio ssrc:%u",
-            answer_sdp_.GetVideoSsrc(), answer_sdp_.GetAudioSsrc());
+    LogInfof(logger_, "create send stream video ssrc:%u, audio ssrc:%u, has rtx:%s, rtx ssrc:%u, rtx payload:%d",
+            answer_sdp_.GetVideoSsrc(), answer_sdp_.GetAudioSsrc(),
+            answer_sdp_.IsVideoRtxEnable() ? "true" : "false",
+            answer_sdp_.GetVideoRtxSsrc(), 
+            answer_sdp_.GetVideoRtxPayloadType());
     if (answer_sdp_.GetVideoSsrc() > 0) {
         has_rtx_ = answer_sdp_.IsVideoRtxEnable();
         uint32_t rtx_ssrc    = answer_sdp_.GetVideoRtxSsrc();
@@ -868,8 +873,12 @@ void PeerConnection::CreateSendStream2() {
     bool video_nack = offer_sdp_.IsVideoNackEnable();
     bool audio_nack = offer_sdp_.IsAudioNackEnable();
 
-    LogInfof(logger_, "create send stream video ssrc:%u, audio ssrc:%u",
-            offer_sdp_.GetVideoSsrc(), offer_sdp_.GetAudioSsrc());
+    LogInfof(logger_, "create send stream video ssrc:%u, audio ssrc:%u, has rtx:%s, rtx ssrc:%u, rtx payload:%d",
+            answer_sdp_.GetVideoSsrc(), answer_sdp_.GetAudioSsrc(),
+            answer_sdp_.IsVideoRtxEnable() ? "true" : "false",
+            answer_sdp_.GetVideoRtxSsrc(), 
+            answer_sdp_.GetVideoRtxPayloadType());
+
     if (offer_sdp_.GetVideoSsrc() > 0) {
         has_rtx_ = offer_sdp_.IsVideoRtxEnable();
         uint32_t rtx_ssrc    = offer_sdp_.GetVideoRtxSsrc();
@@ -1027,6 +1036,8 @@ void PeerConnection::SendXrDlrr(int64_t now_ms) {
     uint32_t dlrr = (uint32_t)(diff_ms / 1000) << 16;
     dlrr |= (uint32_t)((diff_ms % 1000) * 65536 / 1000);
 
+    LogDebugf(logger_, "send xr dlrr lrr:%u, dlrr:%u", lrr, dlrr);
+
     if (video_send_stream_) {
         uint32_t rtp_ssrc = video_send_stream_->GetSsrc();
         dlrr_obj.AddrDlrrBlock(rtp_ssrc, lrr, dlrr);
@@ -1119,8 +1130,8 @@ void PeerConnection::OnStatics(int64_t now_ms) {
 
         audio_recv_stream_->GetStatics(vkps, vpps);
         ss << "{";
-        ss << "\"v_kbps\":" << vkps << ","; 
-        ss << "\"v_pps\":" << vpps << ",";
+        ss << "\"a_kbps\":" << vkps << ","; 
+        ss << "\"a_pps\":" << vpps << ",";
         ss << "\"rtt\":" << audio_recv_stream_->GetRtt() << ",";
         ss << "\"jitter\":" << audio_recv_stream_->GetJitter() << ",";
         ss << "\"lost\":" << audio_recv_stream_->GetLostRate();

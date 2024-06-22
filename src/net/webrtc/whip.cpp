@@ -1,5 +1,6 @@
 #include "whip.hpp"
 #include "uuid.hpp"
+#include "byte_crypto.hpp"
 
 #include <iostream>
 #include <stdio.h>
@@ -219,7 +220,6 @@ int Whip::Start(const std::string& host, uint16_t port, const std::string& subpa
 void Whip::OnHttpRead(int ret, std::shared_ptr<HttpClientResponse> resp_ptr) {
     if (ret < 0) {
         LogInfof(logger_, "OnHttpRead return error:%d", ret);
-        ReleaseHttpClient();
         return;
     }
     std::string resp_data(resp_ptr->data_.Data(), resp_ptr->data_.DataLen());
