@@ -1,0 +1,13 @@
+# Target labels
+ libsrtp
+# Source files and their labels
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp.rule
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp-complete.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-install.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-mkdir.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-download.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-update.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-patch.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-configure.rule
+/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-build.rule

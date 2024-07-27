@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/root/cpp_streamer/3rdparty/libsrtp.tar.gz'
+tag=''

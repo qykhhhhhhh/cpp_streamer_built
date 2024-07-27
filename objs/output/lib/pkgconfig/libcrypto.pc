@@ -1,0 +1,12 @@
+prefix=/home/root/cpp_streamer/objs/output
+exec_prefix=${prefix}
+libdir=/home/root/cpp_streamer/objs/output/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.1
+Libs: -L${libdir} -lcrypto
+Libs.private: -ldl -pthread 
+Cflags: -I${includedir}

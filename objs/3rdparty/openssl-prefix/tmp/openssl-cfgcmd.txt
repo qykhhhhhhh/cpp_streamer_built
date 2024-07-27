@@ -1,0 +1,1 @@
+cmd='./Configure;--prefix=/home/root/cpp_streamer/objs/output;no-shared;linux-x86_64;--libdir=/home/root/cpp_streamer/objs/output/lib'

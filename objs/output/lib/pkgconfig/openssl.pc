@@ -1,0 +1,9 @@
+prefix=/home/root/cpp_streamer/objs/output
+exec_prefix=${prefix}
+libdir=/home/root/cpp_streamer/objs/output/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1
+Requires: libssl libcrypto

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/libsrtp-complete.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-install.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-mkdir.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-download.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-update.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-patch.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-configure.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/libsrtp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libsrtp"
+		],
+		"name" : "libsrtp"
+	}
+}

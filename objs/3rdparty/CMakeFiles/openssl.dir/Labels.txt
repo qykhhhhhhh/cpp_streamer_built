@@ -1,0 +1,13 @@
+# Target labels
+ openssl
+# Source files and their labels
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/openssl
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/openssl.rule
+/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/openssl-complete.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-install.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-mkdir.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-download.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-update.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-patch.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-configure.rule
+/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-build.rule
