@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/flv2rtmppublish_streamer.dir/__/cpp_streamer_factory.cpp.o"
-  "CMakeFiles/flv2rtmppublish_streamer.dir/flv2rtmppublish_streamer.cpp.o"
-  "../../flv2rtmppublish_streamer.pdb"
   "../../flv2rtmppublish_streamer"
+  "../../flv2rtmppublish_streamer.pdb"
+  "CMakeFiles/flv2rtmppublish_streamer.dir/__/cpp_streamer_factory.cpp.o"
+  "CMakeFiles/flv2rtmppublish_streamer.dir/__/cpp_streamer_factory.cpp.o.d"
+  "CMakeFiles/flv2rtmppublish_streamer.dir/flv2rtmppublish_streamer.cpp.o"
+  "CMakeFiles/flv2rtmppublish_streamer.dir/flv2rtmppublish_streamer.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

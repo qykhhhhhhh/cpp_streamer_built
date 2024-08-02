@@ -1,3 +1,12 @@
-repository='external project URL'
-module='/home/root/cpp_streamer/3rdparty/openssl-1.1.1.tar.gz'
-tag=''
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/bin/cmake;-P;/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/verify-openssl.cmake;COMMAND;/usr/local/bin/cmake;-P;/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/extract-openssl.cmake
+source_dir=/home/root/cpp_streamer/objs/3rdparty/openssl
+work_dir=/home/root/cpp_streamer/objs/3rdparty
+url(s)=/home/root/cpp_streamer/3rdparty/openssl-1.1.1.tar.gz
+hash=
+no_extract=
+

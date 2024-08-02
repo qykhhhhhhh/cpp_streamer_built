@@ -119,19 +119,26 @@ bool MsPull::GetHostInfoByUrl(const std::string& url, std::string& host, uint16_
         std::string& video_produce_id,
         std::string& audio_produce_id) {
     const std::string https_scheme("https://");
-    std::string hostUrl(url);
+    const std::string http_scheme("http://");
+        std::string hostUrl(url);
+	    std::string scheme;
 
-    //https://xxxx.com:8080/?roomId=1000&userId=10000&vpid=xxxxxx&apid=xxxxxxx
-    RemoveSubfix(hostUrl, "/");
+	        RemoveSubfix(hostUrl, "/");
 
-    size_t pos = hostUrl.find(https_scheme);
-    if (pos != 0) {
-        LogErrorf(logger_, "host url:%s error, when try to find https scheme", url.c_str());
-        return false;
-    }
-
-    hostUrl = hostUrl.substr(https_scheme.length());//xxxx.com:8080/?roomId=100&userId=1000
-
+		    size_t pos = hostUrl.find(https_scheme);
+		        if (pos != 0) {
+				        LogInfof(logger_, "use http");
+					        pos = hostUrl.find(http_scheme);
+						        hostUrl = hostUrl.substr(http_scheme.length());//xxxx.com:8080/?roomId=100&userId=1000
+							        if (pos != 0) {
+									            LogErrorf(logger_, "find to find http/https scheme, url:%s", url.c_str());
+										                return false;
+												        }
+								        
+									    } else {
+										            hostUrl = hostUrl.substr(https_scheme.length());//xxxx.com:8080/?roomId=100&userId=1000
+											            LogInfof(logger_, "use https");
+												        }
     pos = hostUrl.find("/");
     if (pos != std::string::npos) {
         std::string hostname = hostUrl.substr(0, pos);//xxxx.com:8080

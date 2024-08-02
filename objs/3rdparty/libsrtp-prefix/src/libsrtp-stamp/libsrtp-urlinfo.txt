@@ -1,3 +1,12 @@
-repository='external project URL'
-module='/home/root/cpp_streamer/3rdparty/libsrtp.tar.gz'
-tag=''
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/bin/cmake;-P;/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/verify-libsrtp.cmake;COMMAND;/usr/local/bin/cmake;-P;/home/root/cpp_streamer/objs/3rdparty/libsrtp-prefix/src/libsrtp-stamp/extract-libsrtp.cmake
+source_dir=/home/root/cpp_streamer/objs/3rdparty/libsrtp
+work_dir=/home/root/cpp_streamer/objs/3rdparty
+url(s)=/home/root/cpp_streamer/3rdparty/libsrtp.tar.gz
+hash=
+no_extract=
+

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/whep_srs_bench.dir/__/cpp_streamer_factory.cpp.o"
-  "CMakeFiles/whep_srs_bench.dir/whep_srs_bench.cpp.o"
-  "../../whep_srs_bench.pdb"
   "../../whep_srs_bench"
+  "../../whep_srs_bench.pdb"
+  "CMakeFiles/whep_srs_bench.dir/__/cpp_streamer_factory.cpp.o"
+  "CMakeFiles/whep_srs_bench.dir/__/cpp_streamer_factory.cpp.o.d"
+  "CMakeFiles/whep_srs_bench.dir/whep_srs_bench.cpp.o"
+  "CMakeFiles/whep_srs_bench.dir/whep_srs_bench.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

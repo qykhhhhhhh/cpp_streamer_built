@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/flvmux.dir/src/format/flv/flv_mux.cpp.o"
+  "CMakeFiles/flvmux.dir/src/format/flv/flv_mux.cpp.o.d"
   "output/lib/libflvmux.pdb"
   "output/lib/libflvmux.so"
 )

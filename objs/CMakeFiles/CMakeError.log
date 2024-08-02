@@ -1,221 +1,221 @@
 Performing C SOURCE FILE Test UV_LINT_W4 failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d55b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d55b.dir/build.make CMakeFiles/cmTC_3d55b.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc5c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc5c4.dir/build.make CMakeFiles/cmTC_bc5c4.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d55b.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_W4   /W4 -o CMakeFiles/cmTC_3d55b.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_bc5c4.dir/src.c.o
+/usr/bin/cc -DUV_LINT_W4  /W4 -o CMakeFiles/cmTC_bc5c4.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /W4: No such file or directory
-CMakeFiles/cmTC_3d55b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3d55b.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_3d55b.dir/src.c.o] Error 1
+CMakeFiles/cmTC_bc5c4.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_bc5c4.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bc5c4.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3d55b/fast' failed
-make: *** [cmTC_3d55b/fast] Error 2
+Makefile:127: recipe for target 'cmTC_bc5c4/fast' failed
+make: *** [cmTC_bc5c4/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6299c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6299c.dir/build.make CMakeFiles/cmTC_6299c.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb3d5/fast && /usr/bin/make  -f CMakeFiles/cmTC_fb3d5.dir/build.make CMakeFiles/cmTC_fb3d5.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6299c.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_UNUSED_PARAMETER_MSVC   /wd4100 -o CMakeFiles/cmTC_6299c.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_fb3d5.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_UNUSED_PARAMETER_MSVC  /wd4100 -o CMakeFiles/cmTC_fb3d5.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4100: No such file or directory
-CMakeFiles/cmTC_6299c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6299c.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_6299c.dir/src.c.o] Error 1
+CMakeFiles/cmTC_fb3d5.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_fb3d5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fb3d5.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6299c/fast' failed
-make: *** [cmTC_6299c/fast] Error 2
+Makefile:127: recipe for target 'cmTC_fb3d5/fast' failed
+make: *** [cmTC_fb3d5/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4999d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4999d.dir/build.make CMakeFiles/cmTC_4999d.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c87e7/fast && /usr/bin/make  -f CMakeFiles/cmTC_c87e7.dir/build.make CMakeFiles/cmTC_c87e7.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4999d.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC   /wd4127 -o CMakeFiles/cmTC_4999d.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_c87e7.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC  /wd4127 -o CMakeFiles/cmTC_c87e7.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4127: No such file or directory
-CMakeFiles/cmTC_4999d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4999d.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_4999d.dir/src.c.o] Error 1
+CMakeFiles/cmTC_c87e7.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_c87e7.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c87e7.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4999d/fast' failed
-make: *** [cmTC_4999d/fast] Error 2
+Makefile:127: recipe for target 'cmTC_c87e7/fast' failed
+make: *** [cmTC_c87e7/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57e6c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57e6c.dir/build.make CMakeFiles/cmTC_57e6c.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d3a64/fast && /usr/bin/make  -f CMakeFiles/cmTC_d3a64.dir/build.make CMakeFiles/cmTC_d3a64.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57e6c.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_NONSTANDARD_MSVC   /wd4201 -o CMakeFiles/cmTC_57e6c.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_d3a64.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_MSVC  /wd4201 -o CMakeFiles/cmTC_d3a64.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4201: No such file or directory
-CMakeFiles/cmTC_57e6c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_57e6c.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_57e6c.dir/src.c.o] Error 1
+CMakeFiles/cmTC_d3a64.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_d3a64.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3a64.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_57e6c/fast' failed
-make: *** [cmTC_57e6c/fast] Error 2
+Makefile:127: recipe for target 'cmTC_d3a64/fast' failed
+make: *** [cmTC_d3a64/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aea19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aea19.dir/build.make CMakeFiles/cmTC_aea19.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_201f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_201f9.dir/build.make CMakeFiles/cmTC_201f9.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aea19.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC   /wd4206 -o CMakeFiles/cmTC_aea19.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_201f9.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC  /wd4206 -o CMakeFiles/cmTC_201f9.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4206: No such file or directory
-CMakeFiles/cmTC_aea19.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aea19.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_aea19.dir/src.c.o] Error 1
+CMakeFiles/cmTC_201f9.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_201f9.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_201f9.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_aea19/fast' failed
-make: *** [cmTC_aea19/fast] Error 2
+Makefile:127: recipe for target 'cmTC_201f9/fast' failed
+make: *** [cmTC_201f9/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4653d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4653d.dir/build.make CMakeFiles/cmTC_4653d.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fdf2b/fast && /usr/bin/make  -f CMakeFiles/cmTC_fdf2b.dir/build.make CMakeFiles/cmTC_fdf2b.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4653d.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC   /wd4210 -o CMakeFiles/cmTC_4653d.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_fdf2b.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC  /wd4210 -o CMakeFiles/cmTC_fdf2b.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4210: No such file or directory
-CMakeFiles/cmTC_4653d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4653d.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_4653d.dir/src.c.o] Error 1
+CMakeFiles/cmTC_fdf2b.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_fdf2b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fdf2b.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4653d/fast' failed
-make: *** [cmTC_4653d/fast] Error 2
+Makefile:127: recipe for target 'cmTC_fdf2b/fast' failed
+make: *** [cmTC_fdf2b/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1334b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1334b.dir/build.make CMakeFiles/cmTC_1334b.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f978/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f978.dir/build.make CMakeFiles/cmTC_8f978.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1334b.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC   /wd4232 -o CMakeFiles/cmTC_1334b.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_8f978.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC  /wd4232 -o CMakeFiles/cmTC_8f978.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4232: No such file or directory
-CMakeFiles/cmTC_1334b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1334b.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_1334b.dir/src.c.o] Error 1
+CMakeFiles/cmTC_8f978.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_8f978.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f978.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1334b/fast' failed
-make: *** [cmTC_1334b/fast] Error 2
+Makefile:127: recipe for target 'cmTC_8f978/fast' failed
+make: *** [cmTC_8f978/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68a73/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68a73.dir/build.make CMakeFiles/cmTC_68a73.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46f59/fast && /usr/bin/make  -f CMakeFiles/cmTC_46f59.dir/build.make CMakeFiles/cmTC_46f59.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_68a73.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_HIDES_LOCAL   /wd4456 -o CMakeFiles/cmTC_68a73.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_46f59.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_LOCAL  /wd4456 -o CMakeFiles/cmTC_46f59.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4456: No such file or directory
-CMakeFiles/cmTC_68a73.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_68a73.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_68a73.dir/src.c.o] Error 1
+CMakeFiles/cmTC_46f59.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_46f59.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_46f59.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_68a73/fast' failed
-make: *** [cmTC_68a73/fast] Error 2
+Makefile:127: recipe for target 'cmTC_46f59/fast' failed
+make: *** [cmTC_46f59/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8dcf9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8dcf9.dir/build.make CMakeFiles/cmTC_8dcf9.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3f81/fast && /usr/bin/make  -f CMakeFiles/cmTC_a3f81.dir/build.make CMakeFiles/cmTC_a3f81.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8dcf9.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_HIDES_PARAM   /wd4457 -o CMakeFiles/cmTC_8dcf9.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_a3f81.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_PARAM  /wd4457 -o CMakeFiles/cmTC_a3f81.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4457: No such file or directory
-CMakeFiles/cmTC_8dcf9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8dcf9.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_8dcf9.dir/src.c.o] Error 1
+CMakeFiles/cmTC_a3f81.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_a3f81.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a3f81.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8dcf9/fast' failed
-make: *** [cmTC_8dcf9/fast] Error 2
+Makefile:127: recipe for target 'cmTC_a3f81/fast' failed
+make: *** [cmTC_a3f81/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f5a20/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f5a20.dir/build.make CMakeFiles/cmTC_f5a20.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f7a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f7a1.dir/build.make CMakeFiles/cmTC_0f7a1.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f5a20.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_HIDES_GLOBAL   /wd4459 -o CMakeFiles/cmTC_f5a20.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_0f7a1.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_GLOBAL  /wd4459 -o CMakeFiles/cmTC_0f7a1.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4459: No such file or directory
-CMakeFiles/cmTC_f5a20.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f5a20.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_f5a20.dir/src.c.o] Error 1
+CMakeFiles/cmTC_0f7a1.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_0f7a1.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0f7a1.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f5a20/fast' failed
-make: *** [cmTC_f5a20/fast] Error 2
+Makefile:127: recipe for target 'cmTC_0f7a1/fast' failed
+make: *** [cmTC_0f7a1/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d70f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d70f5.dir/build.make CMakeFiles/cmTC_d70f5.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60480/fast && /usr/bin/make  -f CMakeFiles/cmTC_60480.dir/build.make CMakeFiles/cmTC_60480.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d70f5.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC   /wd4706 -o CMakeFiles/cmTC_d70f5.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_60480.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC  /wd4706 -o CMakeFiles/cmTC_60480.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4706: No such file or directory
-CMakeFiles/cmTC_d70f5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d70f5.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_d70f5.dir/src.c.o] Error 1
+CMakeFiles/cmTC_60480.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_60480.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_60480.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d70f5/fast' failed
-make: *** [cmTC_d70f5/fast] Error 2
+Makefile:127: recipe for target 'cmTC_60480/fast' failed
+make: *** [cmTC_60480/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d62c2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d62c2.dir/build.make CMakeFiles/cmTC_d62c2.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f22e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_f22e6.dir/build.make CMakeFiles/cmTC_f22e6.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d62c2.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_NO_UNSAFE_MSVC   /wd4996 -o CMakeFiles/cmTC_d62c2.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_f22e6.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_UNSAFE_MSVC  /wd4996 -o CMakeFiles/cmTC_f22e6.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /wd4996: No such file or directory
-CMakeFiles/cmTC_d62c2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d62c2.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_d62c2.dir/src.c.o] Error 1
+CMakeFiles/cmTC_f22e6.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_f22e6.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f22e6.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d62c2/fast' failed
-make: *** [cmTC_d62c2/fast] Error 2
+Makefile:127: recipe for target 'cmTC_f22e6/fast' failed
+make: *** [cmTC_f22e6/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC failed with the following output:
 Change Dir: /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2828/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2828.dir/build.make CMakeFiles/cmTC_a2828.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dbac1/fast && /usr/bin/make  -f CMakeFiles/cmTC_dbac1.dir/build.make CMakeFiles/cmTC_dbac1.dir/build
 make[1]: Entering directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2828.dir/src.c.o
-/usr/bin/cc   -DUV_LINT_UTF8_MSVC   /utf-8 -o CMakeFiles/cmTC_a2828.dir/src.c.o   -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_dbac1.dir/src.c.o
+/usr/bin/cc -DUV_LINT_UTF8_MSVC  /utf-8 -o CMakeFiles/cmTC_dbac1.dir/src.c.o -c /home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp/src.c
 cc: error: /utf-8: No such file or directory
-CMakeFiles/cmTC_a2828.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a2828.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a2828.dir/src.c.o] Error 1
+CMakeFiles/cmTC_dbac1.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_dbac1.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dbac1.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/root/cpp_streamer/objs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a2828/fast' failed
-make: *** [cmTC_a2828/fast] Error 2
+Makefile:127: recipe for target 'cmTC_dbac1/fast' failed
+make: *** [cmTC_dbac1/fast] Error 2
+
 
 Source file was:
 int main(void) { return 0; }

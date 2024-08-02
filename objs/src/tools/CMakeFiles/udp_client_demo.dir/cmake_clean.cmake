@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/udp_client_demo.dir/__/net/udp/udp_client_echo.cpp.o"
-  "../../udp_client_demo.pdb"
   "../../udp_client_demo"
+  "../../udp_client_demo.pdb"
+  "CMakeFiles/udp_client_demo.dir/__/net/udp/udp_client_echo.cpp.o"
+  "CMakeFiles/udp_client_demo.dir/__/net/udp/udp_client_echo.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

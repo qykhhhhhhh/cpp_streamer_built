@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mpegtsmux.dir/src/format/audio_header.cpp.o"
+  "CMakeFiles/mpegtsmux.dir/src/format/audio_header.cpp.o.d"
   "CMakeFiles/mpegtsmux.dir/src/format/h264_h265_header.cpp.o"
+  "CMakeFiles/mpegtsmux.dir/src/format/h264_h265_header.cpp.o.d"
   "CMakeFiles/mpegtsmux.dir/src/format/mpegts/mpegts_mux.cpp.o"
+  "CMakeFiles/mpegtsmux.dir/src/format/mpegts/mpegts_mux.cpp.o.d"
   "output/lib/libmpegtsmux.pdb"
   "output/lib/libmpegtsmux.so"
 )

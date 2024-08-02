@@ -1,11 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtmppublish.dir/src/format/h264_h265_header.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/format/h264_h265_header.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/chunk_stream.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/chunk_stream.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_client_session.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_client_session.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_control_handler.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_control_handler.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_handshake.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_handshake.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_publish.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_publish.cpp.o.d"
   "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_session_base.cpp.o"
+  "CMakeFiles/rtmppublish.dir/src/net/rtmp/rtmp_session_base.cpp.o.d"
   "output/lib/librtmppublish.pdb"
   "output/lib/librtmppublish.so"
 )

@@ -11,25 +11,25 @@
 			"file" : "/home/root/cpp_streamer/objs/3rdparty/CMakeFiles/openssl-complete.rule"
 		},
 		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-build.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-configure.rule"
+		},
+		{
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-download.rule"
+		},
+		{
 			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-install.rule"
 		},
 		{
 			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-mkdir.rule"
 		},
 		{
-			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-download.rule"
-		},
-		{
-			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-update.rule"
-		},
-		{
 			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-patch.rule"
 		},
 		{
-			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-configure.rule"
-		},
-		{
-			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-build.rule"
+			"file" : "/home/root/cpp_streamer/objs/3rdparty/openssl-prefix/src/openssl-stamp/openssl-update.rule"
 		}
 	],
 	"target" : 

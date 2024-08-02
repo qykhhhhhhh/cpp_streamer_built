@@ -1,57 +1,29 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/root/cpp_streamer/src/format/opus_header.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/format/opus_header.cpp.o"
-  "/home/root/cpp_streamer/src/format/sdp/sdp.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/format/sdp/sdp.cpp.o"
-  "/home/root/cpp_streamer/src/net/http/http_client.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/http/http_client.cpp.o"
-  "/home/root/cpp_streamer/src/net/rtprtcp/rtp_h264_pack.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/rtprtcp/rtp_h264_pack.cpp.o"
-  "/home/root/cpp_streamer/src/net/rtprtcp/rtp_packet.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/rtprtcp/rtp_packet.cpp.o"
-  "/home/root/cpp_streamer/src/net/stun/stun.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/stun/stun.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/dtls.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/dtls.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/jitterbuffer.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/jitterbuffer.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/nack_generator.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/nack_generator.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/pack_handle_h264.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/pack_handle_h264.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/peerconnection.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/peerconnection.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/rtc_recv_stream.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/rtc_recv_stream.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/rtc_send_stream.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/rtc_send_stream.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/srtp_session.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/srtp_session.cpp.o"
-  "/home/root/cpp_streamer/src/net/webrtc/whip.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/net/webrtc/whip.cpp.o"
-  "/home/root/cpp_streamer/src/utils/byte_crypto.cpp" "/home/root/cpp_streamer/objs/CMakeFiles/whip.dir/src/utils/byte_crypto.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "USING_UV_SHARED=1"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "output/include"
-  "output/include/srtp2"
-  "output/include/openssl"
-  "../src"
-  "../src/format"
-  "../src/format/flv"
-  "../src/format/mpegts"
-  "../src/format/amf"
-  "../src/format/sdp"
-  "../src/net"
-  "../src/net/rtprtcp"
-  "../src/net/http"
-  "../src/net/tcp"
-  "../src/net/udp"
-  "../src/net/stun"
-  "../src/net/rtmp"
-  "../src/net/webrtc"
-  "../src/net/timesync"
-  "../src/utils"
-  "../src/utils/av"
-  "../3rdparty/libuv/include"
-  "/usr/local/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/root/cpp_streamer/src/format/opus_header.cpp" "CMakeFiles/whip.dir/src/format/opus_header.cpp.o" "gcc" "CMakeFiles/whip.dir/src/format/opus_header.cpp.o.d"
+  "/home/root/cpp_streamer/src/format/sdp/sdp.cpp" "CMakeFiles/whip.dir/src/format/sdp/sdp.cpp.o" "gcc" "CMakeFiles/whip.dir/src/format/sdp/sdp.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/http/http_client.cpp" "CMakeFiles/whip.dir/src/net/http/http_client.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/http/http_client.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/rtprtcp/rtp_h264_pack.cpp" "CMakeFiles/whip.dir/src/net/rtprtcp/rtp_h264_pack.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/rtprtcp/rtp_h264_pack.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/rtprtcp/rtp_packet.cpp" "CMakeFiles/whip.dir/src/net/rtprtcp/rtp_packet.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/rtprtcp/rtp_packet.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/stun/stun.cpp" "CMakeFiles/whip.dir/src/net/stun/stun.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/stun/stun.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/dtls.cpp" "CMakeFiles/whip.dir/src/net/webrtc/dtls.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/dtls.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/jitterbuffer.cpp" "CMakeFiles/whip.dir/src/net/webrtc/jitterbuffer.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/jitterbuffer.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/nack_generator.cpp" "CMakeFiles/whip.dir/src/net/webrtc/nack_generator.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/nack_generator.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/pack_handle_h264.cpp" "CMakeFiles/whip.dir/src/net/webrtc/pack_handle_h264.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/pack_handle_h264.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/peerconnection.cpp" "CMakeFiles/whip.dir/src/net/webrtc/peerconnection.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/peerconnection.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/rtc_recv_stream.cpp" "CMakeFiles/whip.dir/src/net/webrtc/rtc_recv_stream.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/rtc_recv_stream.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/rtc_send_stream.cpp" "CMakeFiles/whip.dir/src/net/webrtc/rtc_send_stream.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/rtc_send_stream.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/srtp_session.cpp" "CMakeFiles/whip.dir/src/net/webrtc/srtp_session.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/srtp_session.cpp.o.d"
+  "/home/root/cpp_streamer/src/net/webrtc/whip.cpp" "CMakeFiles/whip.dir/src/net/webrtc/whip.cpp.o" "gcc" "CMakeFiles/whip.dir/src/net/webrtc/whip.cpp.o.d"
+  "/home/root/cpp_streamer/src/utils/byte_crypto.cpp" "CMakeFiles/whip.dir/src/utils/byte_crypto.cpp.o" "gcc" "CMakeFiles/whip.dir/src/utils/byte_crypto.cpp.o.d"
   )
 
 # Targets to which this target links.

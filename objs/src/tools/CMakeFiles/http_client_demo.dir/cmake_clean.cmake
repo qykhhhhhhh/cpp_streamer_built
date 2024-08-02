@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/http_client_demo.dir/__/net/http/http_client_demo.cpp.o"
-  "CMakeFiles/http_client_demo.dir/__/net/http/http_client.cpp.o"
-  "../../http_client_demo.pdb"
   "../../http_client_demo"
+  "../../http_client_demo.pdb"
+  "CMakeFiles/http_client_demo.dir/__/net/http/http_client.cpp.o"
+  "CMakeFiles/http_client_demo.dir/__/net/http/http_client.cpp.o.d"
+  "CMakeFiles/http_client_demo.dir/__/net/http/http_client_demo.cpp.o"
+  "CMakeFiles/http_client_demo.dir/__/net/http/http_client_demo.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

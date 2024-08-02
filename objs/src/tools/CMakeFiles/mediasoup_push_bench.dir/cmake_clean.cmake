@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mediasoup_push_bench.dir/__/cpp_streamer_factory.cpp.o"
-  "CMakeFiles/mediasoup_push_bench.dir/mediasoup_push_bench.cpp.o"
-  "../../mediasoup_push_bench.pdb"
   "../../mediasoup_push_bench"
+  "../../mediasoup_push_bench.pdb"
+  "CMakeFiles/mediasoup_push_bench.dir/__/cpp_streamer_factory.cpp.o"
+  "CMakeFiles/mediasoup_push_bench.dir/__/cpp_streamer_factory.cpp.o.d"
+  "CMakeFiles/mediasoup_push_bench.dir/mediasoup_push_bench.cpp.o"
+  "CMakeFiles/mediasoup_push_bench.dir/mediasoup_push_bench.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/whip_srs_demo.dir/__/cpp_streamer_factory.cpp.o"
-  "CMakeFiles/whip_srs_demo.dir/whip_srs_demo.cpp.o"
-  "../../whip_srs_demo.pdb"
   "../../whip_srs_demo"
+  "../../whip_srs_demo.pdb"
+  "CMakeFiles/whip_srs_demo.dir/__/cpp_streamer_factory.cpp.o"
+  "CMakeFiles/whip_srs_demo.dir/__/cpp_streamer_factory.cpp.o.d"
+  "CMakeFiles/whip_srs_demo.dir/whip_srs_demo.cpp.o"
+  "CMakeFiles/whip_srs_demo.dir/whip_srs_demo.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/flvdemux.dir/src/format/audio_header.cpp.o"
-  "CMakeFiles/flvdemux.dir/src/format/h264_h265_header.cpp.o"
+  "CMakeFiles/flvdemux.dir/src/format/audio_header.cpp.o.d"
   "CMakeFiles/flvdemux.dir/src/format/flv/flv_demux.cpp.o"
+  "CMakeFiles/flvdemux.dir/src/format/flv/flv_demux.cpp.o.d"
+  "CMakeFiles/flvdemux.dir/src/format/h264_h265_header.cpp.o"
+  "CMakeFiles/flvdemux.dir/src/format/h264_h265_header.cpp.o.d"
   "output/lib/libflvdemux.pdb"
   "output/lib/libflvdemux.so"
 )

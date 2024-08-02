@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/timesync.dir/src/net/timesync/timesync.cpp.o"
+  "CMakeFiles/timesync.dir/src/net/timesync/timesync.cpp.o.d"
   "output/lib/libtimesync.pdb"
   "output/lib/libtimesync.so"
 )
